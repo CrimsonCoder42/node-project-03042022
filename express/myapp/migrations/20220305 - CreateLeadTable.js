@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-    op: (queryInterface, Sequelize) => {
+    up: (queryInterface, Sequelize) => {
         return queryInterface.createTable('Leads', {
             id: {
                 allowNull: false,
